@@ -1,0 +1,24 @@
+{
+  "name": "marden",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "@truffle/hdwallet-provider": "^1.5.1",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^10.0.0",
+    "truffle-flattener": "^1.5.0"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.15",
+    "truffle-privatekey-provider": "^1.5.0"
+  }
+}
